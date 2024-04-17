@@ -1,11 +1,5 @@
 {
     "version": 2,
-    "functions": {
-        "api": {
-            "runtime": "python3.9",
-            "memory": 512
-        }
-    },
     "builds": [
         {"src": "app.py", "use": "@vercel/python"}
     ],
