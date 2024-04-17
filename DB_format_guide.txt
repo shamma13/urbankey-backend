@@ -1,9 +1,0 @@
-User:
-    name : fullname
-    password:
-
-
-Registration Key: 
-    Reg Key: string 
-    unit ID:
-    email
