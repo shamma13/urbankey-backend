@@ -4,13 +4,16 @@ from controllers.Auth import signup, signin, refreshToken, handle_logout #contro
 auth_routes = Blueprint('auth_routes', __name__) #create blueprint definition
 
 index_html = '''
-        <html>
+       <html>
 
         <head>
-            <title>WELCOME TO THE BACKEND</title>
+            <title>Backend Server</title>
         </head>
 
         <body>
+        <div style="padding:20px;">
+                <h2>Welcome to the backend</h2>
+        </div>
 
         </body>
 
