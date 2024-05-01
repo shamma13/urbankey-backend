@@ -59,7 +59,7 @@ def signin(request):
     if request.method == 'OPTIONS':
         # Handle CORS preflight request
         response = make_response()
-        response.headers['Access-Control-Allow-Origin'] = 'https://main--urbankey.netlify.app/'
+        response.headers['Access-Control-Allow-Origin'] = 'https://main--urbankey.netlify.app'
         response.headers['Access-Control-Allow-Methods'] = 'POST'
         response.headers['Access-Control-Allow-Headers'] = 'Content-Type'
         return response
