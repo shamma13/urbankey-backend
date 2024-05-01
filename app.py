@@ -32,7 +32,7 @@ def create_app():
     # mongo = PyMongo(app)
 
     # cors_options = {
-    #     "origins": ["http://example.com", "http://localhost:3000", "http://localhost:5000"],
+    #     "origins": ["http://example.com", "http://localhost:3000", "http://urbankey.s3-website.us-east-2.amazonaws.com/"],
     #     "supports_credentials": True
     # }
 
@@ -46,7 +46,7 @@ def create_app():
     #     "options_success_status": 200
     # }
     # CORS(app, **cors_options)
-    CORS(app, resources={r"/*": {"origins": "http://localhost:3000", "supports_credentials": True}})
+    CORS(app, resources={r"/*": {"origins": "http://urbankey.s3-website.us-east-2.amazonaws.com/", "supports_credentials": True}})
     # CORS(app)
 
 
