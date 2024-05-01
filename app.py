@@ -46,7 +46,7 @@ def create_app():
     #     "options_success_status": 200
     # }
     # CORS(app, **cors_options)
-    CORS(app, resources={r"/*": {"origins": "http://urbankey.s3-website.us-east-2.amazonaws.com/", "supports_credentials": True}})
+    CORS(app, resources={r"/*": {"origins": "https://main--urbankey.netlify.app/", "supports_credentials": True}})
     # CORS(app)
 
 
