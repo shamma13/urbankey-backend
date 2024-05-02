@@ -1,7 +1,7 @@
 from flask import Blueprint, request
 
-from controllers.User import getProfile, getRegisteredProfile, update_user_profile, download_file
-from middleware.TokenAuth import token_required
+from controllers.User import getProfile, getRegisteredProfile, update_user_profile, download_file, new_request, get_employee_info
+from middleware.TokenAuth import token_required, token_required_prime
 
 user_routes = Blueprint('user_routes', __name__)
 
