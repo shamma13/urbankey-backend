@@ -32,3 +32,14 @@ def updateProfile_route():
 def download_file_route(unit_id):
 
     return download_file(unit_id)
+
+@user_routes.route('/user/dashboard/newRequest', methods=['POST'])
+@token_required
+def new_request_route():
+    
+    return new_request(request)
+
+@user_routes.route('/getEmployeeInfo', methods=['GET'])
+@token_required_prime
+def get_employee_info_route():
+    return get_employee_info(request)
