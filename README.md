@@ -1,6 +1,5 @@
 # urbankey-backend
 
-# UrbanKey_SOEN390_W2024
 ### SOEN390 Winter 2024
 
 ## Table of Contents
